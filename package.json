@@ -1,14 +1,8 @@
 {
-    "name": "wcart",
+    "name": "demo_task",
     "version": "4.0.0",
     "private": true,
-    "author": "Anbarasan",
-    "contributors": [
-        "Anbarasan <anbu@webnexs.in>",
-        "Kaviarasan <kavi@webnexs.in>",
-        "Nithin <nithinbarath@webnexs.in>",
-        "Immanuel <immanuel@webnexs.in>"
-    ],
+
     "scripts": {
         "start": "node ./app.js"
     },
