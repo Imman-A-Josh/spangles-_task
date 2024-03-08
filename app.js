@@ -31,11 +31,6 @@ app.set('view engine', 'ejs');
 app.use(logger('dev'));
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: false }));
-
-const oneDay = 1000 * 60 * 60 * 24;
-app.use(session({ secret: "webnexs", saveUninitialized: true, cookie: { maxAge: oneDay }, resave: false }));
-//app.use(session({ secret: "webnexs" }));
-
 app.use(flash());
 app.use(expressValidator());
 
